@@ -1,0 +1,12 @@
+playwright
+fastapi
+uvicorn[standard]
+motor
+python-dotenv
+apscheduler
+pydantic
+httpx
+pymongo
+google-generativeai
+beautifulsoup4
+html2text

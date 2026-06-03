@@ -1,0 +1,50 @@
+.filter-bar {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem;
+  margin: 1.5rem 2rem;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.search-group {
+  flex: 1;
+}
+
+.filter-icon {
+  color: var(--text-muted);
+}
+
+.filter-group input,
+.filter-group select {
+  background: transparent;
+  border: none;
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 0.95rem;
+  width: 100%;
+  outline: none;
+}
+
+.filter-group select {
+  cursor: pointer;
+  appearance: none;
+  padding-right: 1rem;
+}
+
+.filter-group select option {
+  background: var(--bg-navy-light);
+  color: var(--text-primary);
+}
+
+.filter-group input::placeholder {
+  color: var(--text-muted);
+}
