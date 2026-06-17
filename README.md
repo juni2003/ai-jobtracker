@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/briefcase.svg" alt="Logo" width="80" height="80">
-  <h1 align="center">AI JobTracker Portal</h1>
+  <h1 align="center">AI JobScrapping Portal</h1>
 
   <p align="center">
     A Dual-Pipeline Automated Job Board Scraping & Tracking System.
