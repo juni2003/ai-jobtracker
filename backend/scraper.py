@@ -81,7 +81,7 @@ def _playwright_get_text_sync(url: str) -> str:
         if result.stderr:
             stderr_text = result.stderr.decode("utf-8", errors="replace").strip()
             if stderr_text:
-                print(f"    ⚠️  pw_scrape: {stderr_text[:200]}")
+                sys.stderr.write(f"pw_scrape.py STDERR: {stderr_text}\n")
         return stdout_text
     except subprocess.TimeoutExpired:
         print(f"    ⏱  Timeout: {url}")
