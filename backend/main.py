@@ -62,7 +62,7 @@ async def scheduled_pakistan_scrape():
 
 
 async def scheduled_remote_scrape():
-    jobs   = run_remote_scraper()
+    jobs   = await run_remote_scraper()
     result = await _save_jobs(jobs, get_remote_col())
     print(f"📥 Remote scheduled: {result['inserted']} new, {result['skipped']} skipped")
 
